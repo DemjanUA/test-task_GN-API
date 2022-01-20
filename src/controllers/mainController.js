@@ -3,15 +3,15 @@ const GNService = require('../services/GNService');
 
 class MainController {
   async get(req, res, next) {
-    const value = req.query.value;
-
     try {
+      const value = req.query.value;
+
       await validationService.validateGNInput(value);
 
       let responseValue = await GNService.getGN(value);
 
       res.json({
-        value: responseValue || value
+        value: responseValue
       });
     } catch (err) {
       return next(err)

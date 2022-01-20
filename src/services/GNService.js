@@ -1,5 +1,4 @@
 class GNService {
-  fileResource
 
   async getGN(value) {
     if (value % 3 === 0 && value % 5 === 0) {
@@ -8,6 +7,8 @@ class GNService {
       return "G"
     } else if (value % 5 === 0) {
       return "N"
+    } else {
+      return value
     }
   }
 }
