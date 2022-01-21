@@ -2,8 +2,9 @@
   "name": "test-task_gn-api",
   "version": "1.0.0",
   "description": "Test task for *",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app",
     "test": "jest"
   },
   "repository": {

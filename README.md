@@ -23,9 +23,24 @@ git clone https://github.com/DemjanUA/test-task_GN-API.git
 
 ## Usage
 
+GN-API is such simple to use that it has just one endpoint
 ```sh
+GET /?value=INTEGER
+```
+If the integer is a multiple of 3, it returns return "G", 
+If the integer is a multiple of 5, it returns return "N", 
+If the integer is a multiple of both 3 and 5, then both "GN" should be returned. 
+otherwise the provided integer should be returned. 
+
+```sh
+cd test-task_GN-API
 node src/app
 ```
+## Try it with
+```sh
+curl --location --request GET 'http://localhost:8080?value=YOUR_VALUE'
+```
+Where <YOUR_VALUE> is an integer you want to GN 
 
 ## Run tests
 
@@ -56,6 +71,3 @@ Give a ⭐️ if this project helped you!
 Copyright © 2022 [Dmytro Uchkin](https://github.com/DemjanUA).
 
 This project is [ISC](https://github.com/DemjanUA/test-task_GN-API/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
