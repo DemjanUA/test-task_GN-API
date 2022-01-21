@@ -34,7 +34,7 @@ otherwise the provided integer should be returned.
 
 ```sh
 cd test-task_GN-API
-node src/app
+npm run start
 ```
 ## Try it with
 ```sh
