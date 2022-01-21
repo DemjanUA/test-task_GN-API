@@ -23,7 +23,7 @@ git clone https://github.com/DemjanUA/test-task_GN-API.git
 
 ## Usage
 
-GN-API is such simple to use that it has just one endpoint
+GN-API is so simple to use that it has just one endpoint
 ```sh
 GET /?value=INTEGER
 ```
