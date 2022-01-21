@@ -9,7 +9,7 @@
 
 ### 🏠 [Homepage](https://github.com/DemjanUA/test-task_GN-API#readme)
 
-### ✨ [Demo](http://demo)
+### ✨ [Demo](https://powerful-ridge-85825.herokuapp.com/?value=56)
 
 ## Prerequisites
 
